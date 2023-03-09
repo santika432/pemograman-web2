@@ -73,10 +73,10 @@
 					TV: Rp.4.200.000
 				</div>
 				<div class="list-group-item">
-    `               KULKAS : Rp.3.100.000
+         KULKAS : Rp.3.100.000
 				</div>
                 <div class="list-group-item">
-    `               MESIN CUCI : Rp.3.800.000
+          MESIN CUCI : Rp.3.800.000
 				</div>
 				<div class="list-group-item justify-content-between">
 				</div> <a href="#" class="list-group-item list-group-item-action active justify-content-between"> HARGA DAPAT BERUBAH SETIAP SAAT <span class="badge badge-light badge-pill">14</span></a>
@@ -115,7 +115,7 @@
                         $harga =0;
                     }
                     $total_harga = $harga * $jumlah;
-                }
+                
                 
              
             ?>
@@ -127,6 +127,7 @@
                 <td> <?=$total_harga?></td>
                 
             </tr>
+            <?php } ?>
         </TBody>
     </table>
 
